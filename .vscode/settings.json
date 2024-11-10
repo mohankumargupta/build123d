@@ -1,0 +1,11 @@
+{
+    "emeraldwalk.runonsave": {
+        "commands": [
+            {
+                "match": "\\.py$",
+                "cmd": ".venv\\Scripts\\python.exe ${file}"
+            }
+        ]
+    },
+    "git.postCommitCommand": "none"
+}
